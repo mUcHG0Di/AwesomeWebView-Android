@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
 apply from: 'maven_publish.gradle'
+group='com.github.mUcHG0Di'
 
 android {
     compileSdk 34
