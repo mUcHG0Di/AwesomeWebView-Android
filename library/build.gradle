@@ -26,6 +26,11 @@ android {
     }
 }
 
+repositories {
+    mavenCentral()
+    maven { url "https://jitpack.io" }
+}
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.annotation:annotation:1.7.0'
